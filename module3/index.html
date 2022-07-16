@@ -1,83 +1,84 @@
 <!doctype html>
-<html lang="en">
+  <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>David Chu's China Bistro</title>
+    <title>Food, LLC</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
   </head>
-<body>
-  <header>
-    <nav id="header-nav" class="navbar navbar-default">
-      <div class="container">
-        <div class="navbar-header">
-          <a href="index.html" class="pull-left visible-md visible-lg">
-            <div id="logo-img"></div>
-          </a>
+  <body>
+    <header>
+      <nav id="header-nav" class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <div class="navbar-brand">
+              <a href="index.html"><h1>Food, LLC</h1></a>
+            </div>
 
-          <div class="navbar-brand">
-            <a href="index.html"><h1>David Chu's China Bistro</h1></a>
-            <p>
-              <img src="images/star-k-logo.png" alt="Kosher certification">
-              <span>Kosher Certified</span>
-            </p>
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"><br class="hidden-md" class="hidden-sm"></span>
+              <span class="icon-bar"><br class="hidden-md" class="hidden-sm"></span>
+              <span class="icon-bar"><br class="hidden-md" class="hidden-sm"></span>
+            </button>
           </div>
 
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div>
-
-        <div id="collapsable-nav" class="collapse navbar-collapse">
+          <div id="collapsable-nav" class="collapse navbar-collapse">
            <ul id="nav-list" class="nav navbar-nav navbar-right">
             <li>
-              <a href="menu-categories.html">
-                <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Menu</a>
+              <a href="#" class="visible-xs">Chicken</a>
             </li>
             <li>
-              <a href="#">
-                <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About</a>
+              <a href="#" class="visible-xs">Beef</a>
             </li>
             <li>
-              <a href="#">
-                <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs"> Awards</a>
+              <a href="#" class="visible-xs">Sushi</a>
             </li>
-            <li id="phone" class="hidden-xs">
-              <a href="tel:410-602-5008">
-                <span>410-602-5008</span></a><div>* We Deliver</div>
-            </li>
+
           </ul><!-- #nav-list -->
-        </div><!-- .collapse .navbar-collapse -->
-      </div><!-- .container -->
-    </nav><!-- #header-nav -->
+        </div><!-- .collapse .navbar-collapse --> 
+      </div><!-- #container -->        
+    </nav><!-- #header-nav -->s
   </header>
 
-  <div id="call-btn" class="visible-xs">
-    <a class="btn" href="tel:410-602-5008">
-    <span class="glyphicon glyphicon-earphone"></span>
-    410-602-5008
-    </a>
-  </div>
-  <div id="xs-deliver" class="text-center visible-xs">* We Deliver</div>
-
   <div id="main-content" class="container">
-    <div class="jumbotron">
-      <img src="images/jumbotron_768.jpg" alt="Picture of restaurant" class="img-responsive visible-xs">
-    </div>
+    <div id="home-tiles" class="row">
+      <div id="our-menu"><h1>Our menu</h1></div>
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <div id="chicken-tile">
+          <span>Chicken</span>
+          <div>Lemon Chicken. Garlic, herbs and lemon—plus a glug of white wine—mean that these juicy, tender chicken breasts are as delicious as they are healthy.
+          Pesto Chicken Bruschetta. Chicken breasts are simply baked to perfection, topped with fresh mozzarella and juicy, garlicky fresh chopped tomatoes that’s basically everything you love about bruschetta, minus the bread
+          Chicken Empanadas. Tender, juicy shredded chicken, onions, peppers and garlic make a hearty, savory filling for this easy empanada recipe. Pro tip: make a bunch and freeze some for later.</div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <div id="specials-tile">
+          <span>Beef</span>
+          <div>Beef dishes are often nostalgic. Whether it's a cultural classic like steak frites that will transport you to France, Mom's secret meat loaf recipe, or a hearty stew you grew up with, beef plays a pretty large role in countless cuisines. While you can gussy up the meat with a lavish sauce or seasoning, one factor remains consistent—the quality of the cut.</div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-12 col-xs-12">
+        <div id="map-tile">
+          <span>Sushi</span>
+          <div>Sashimi is just the meat, served without other ingredients.
+          Sushi features the meat and adds rice and other ingredients, such as vegetables, which are all rolled up in a sheet of nori (seaweed) and then sliced into pieces. You'll either see it as maki (which means roll), where the seaweed is on the outside, uramaki, where the seaweed is on the inside and rice is on the outside, or temaki, a cone-shaped piece of sushi that's rolled by hand.
+          Nigiri is a dish that's halfway in between sashimi and sushi. Nigiri is sashimi that's served on a molded rectangle of rice.</div>
 
+        </div>
+      </div>
+    </div>
   </div>
 
 
-  <!-- jQuery (Bootstrap JS plugins depend on it) -->
-  <script src="js/jquery-2.1.4.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/script.js"></script>
-</body>
-</html>
+
+    <!-- jQuery (Bootstrap JS plugins depend on it) -->
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+  </html>
